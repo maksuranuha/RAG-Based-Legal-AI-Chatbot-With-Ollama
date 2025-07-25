@@ -1,0 +1,14 @@
+gradio
+requests
+beautifulsoup4
+tavily-python
+langchain 
+langchain-community
+langchain_ollama 
+langchain_core 
+langchain_groq 
+faiss-cpu 
+pdfplumber 
+langchain-text-splitters
+python-dotenv
+shutil
