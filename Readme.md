@@ -9,13 +9,8 @@ In Bangladesh, legal literacy remains low. Many people struggle to understand or
 
 Our implementation follows a robust RAG pipeline that ensures both accuracy and reliability:
 
-```
-User Query → Semantic Embedding → Vector Similarity Search → Context Retrieval
-     ↓                                                              ↓
-Legal Database ← Document Chunking ← PDF Processing ← Source Documents
-     ↓                                                              ↓
-LLM Processing → Contextual Answer Generation → Fallback Mechanism → Response
-```
+<img width="1503" height="218" alt="Law" src="https://github.com/user-attachments/assets/c3d9128d-5db7-4517-abec-a9d97b32ee22" />
+
 
 ### Technical Implementation Stack
 
