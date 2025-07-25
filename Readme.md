@@ -7,7 +7,7 @@ In Bangladesh, legal literacy remains low. Many people struggle to understand or
 
 ## System Architecture & Methodology
 
-Our implementation follows a robust RAG pipeline that ensures both accuracy and reliability:
+The implementation follows a robust RAG pipeline that ensures both accuracy and reliability:
 
 <img width="1503" height="218" alt="Law" src="https://github.com/user-attachments/assets/c3d9128d-5db7-4517-abec-a9d97b32ee22" />
 
