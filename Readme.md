@@ -1,6 +1,6 @@
 # Legal AI Assistant
 
-This is an intelligent Retrieval-Augmented Generation (RAG) system designed to make Bangladesh’s legal landscape—especially cyber law, ICT regulations, and digital security—more accessible and understandable. Legal documents are often complex and hard to navigate, especially for everyday citizens. Our AI assistant bridges this gap using advanced NLP, allowing users to ask natural-language questions and receive precise, context-rich answers grounded in authentic legal documents.
+This is an intelligent Retrieval-Augmented Generation (RAG) system designed to make Bangladesh’s legal landscape—especially cyber law, ICT regulations, and digital security—more accessible and understandable. Legal documents are often complex and hard to navigate, especially for everyday citizens. This AI assistant bridges the gap using advanced NLP, allowing users to ask natural-language questions and receive precise, context-rich answers grounded in authentic legal documents.
 
 # Why This Matters
 In Bangladesh, legal literacy remains low. Many people struggle to understand or even access crucial laws and regulations. This system was built to address that, offering a simple interface backed by a powerful backend that can retrieve, understand, and explain relevant legal provisions using real documents
@@ -58,7 +58,7 @@ Use virtual environments to ensure dependency isolation:
 **Method 1: Traditional Virtual Environment**
 ```bash
 python -m venv legal-ai-env
-source legal-ai-env/bin/activate  # On Windows: legal-ai-env\Scripts\activate
+sce legal-ai-env/bin/activate  # On Windows: legal-ai-env\Scripts\activate
 pip install -r requirements.txt
 ```
 
@@ -82,10 +82,10 @@ Create a `.env` file in the project root:
 
 ```env
 # Required for fallback search functionality
-TAVILY_API_KEY=your_tavily_api_key_here
+TAVILY_API_KEY=y_tavily_api_key_here
 
 # Required for LLM processing
-GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY=y_groq_api_key_here
 
 # Optional: Custom model configurations
 OLLAMA_MODEL_NAME= mistral:latest
@@ -94,7 +94,7 @@ GROQ_MODEL_NAME= mistral-saba-24b
 ### Check the Readme_for_Ollama.md For Ollama Setup 
 ### Knowledge Base Initialization
 
-Before first use, construct the vector database from source documents:
+Before first use, construct the vector database from sce documents:
 
 ```bash
 python vector_database.py
@@ -127,7 +127,7 @@ The system will be accessible via web browser at the provided local URL.
 - **Intelligent Fallback**: Automatic external search when local knowledge is insufficient
 
 ### Advanced Features
-- **Source Attribution**: All responses include specific document references
+- **Sce Attribution**: All responses include specific document references
 - **Confidence Assessment**: System evaluates response reliability
 - **Query Expansion**: Handles complex legal terminology and concepts
 - **Cross-reference Capability**: Links related legal provisions across documents
@@ -136,7 +136,7 @@ The system will be accessible via web browser at the provided local URL.
 
 ### Reliability Measures
 - Strict context-based response generation (no hallucination)
-- Multi-source verification through fallback mechanisms
+- Multi-sce verification through fallback mechanisms
 - Explicit uncertainty acknowledgment when information is unavailable
 
 ### System Limitations
