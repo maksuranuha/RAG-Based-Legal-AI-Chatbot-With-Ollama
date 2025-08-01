@@ -18,7 +18,7 @@ The implementation follows a robust RAG pipeline that ensures both accuracy and 
 - Selected for its superior performance in legal domain understanding
 - Optimized for complex reasoning and context preservation
 
-**Embedding Model**: Ollama DeepSeek-R1:14B
+**Embedding Model**: Ollama mistral:latest
 - Chosen for semantic similarity in legal document processing
 - Maintains consistency with source model architecture
 
