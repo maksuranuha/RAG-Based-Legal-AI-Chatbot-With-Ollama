@@ -1,4 +1,4 @@
-# Legal AI Assistant
+# Legal AI Assistant With Ollama
 
 This is an intelligent Retrieval-Augmented Generation (RAG) system designed to make Bangladesh’s legal landscape—especially cyber law, ICT regulations, and digital security—more accessible and understandable. Legal documents are often complex and hard to navigate, especially for everyday citizens. This AI assistant bridges the gap using advanced NLP, allowing users to ask natural-language questions and receive precise, context-rich answers grounded in authentic legal documents.
 
